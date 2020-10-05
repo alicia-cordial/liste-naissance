@@ -3,15 +3,18 @@ body
     background-image: url(background.jpg);
     height: 100vh;
     margin: 0px;
+   font-family: 'Dancing Script', cursive;
 }
 
 
-header {
+header 
+{
   box-sizing: border-box;
   position: relative; 
 }
 
-ul {
+ul 
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,20 +23,22 @@ ul {
   justify-content: space-around;
 }
 
-li {
+li 
+{
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
 }
 
 
-nav li {
-    font-family: fantasy;
+nav li 
+{
+  font-family: 'Dancing Script', cursive;
 }
 
 a
 {
-    color: pink;
+    color: skyblue;
     display: flex;
     align-content: space-between;
     
@@ -57,15 +62,49 @@ table
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
+    height: 50vh;
+    border: 10px;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:skyblue;
+    width:100%;
 }
 
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:skyblue;
+ width:10%;
+ }
+
+
+h1
+{
+    text-align: center;
+}
+
+.déjà
+{
+    color: lightgrey;
+}
+
+.urgent
+{
+    color: red;
+}
+
+.nomdelobjet
+{
+    color: hotpink;
+}
 
 #listeNavTop {
   background-color: mintcream;
   padding: 20px;
-  font-family: fantasy;
+  font-family: 'Dancing Script', cursive;
   border-radius: 25px;
-    position: fixed;
-    top:0;
+  position: fixed;
+  top:0;
   
 }
