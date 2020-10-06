@@ -22,9 +22,14 @@
             
         <main>
 
-
+<!--Formulaire-->
             <section class="formulaire">
 <form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="infospersonne">Nom et Prénom :</label>
+        <input type="text" id="name" name="personn_name">
+    </div>
+    
     <div>
         <label for="objectname">Nom de l'objet :</label>
         <input type="text" id="name" name="object_name">
@@ -52,8 +57,11 @@
     </div>
     
     <div class="submit">
-    <input type="submit" value="Envoyer">
+    <form action=formulaire.html" method="get">
+    <button type="submit" formaction="liste.html">Envoyer</boutton>
+    </form>                                             
     </div>
+
 </form>
      </section>       
             
