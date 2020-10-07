@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(background.jpg);
+    background-image: url(image/background.jpg);
     height: 100vh;
     margin: 0px;
     font-family: 'Dancing Script', cursive;
@@ -118,7 +118,7 @@ h1, h2
 
 .formulaire
 {
-    background-image: url(nuages2.jpg);
+    background-image: url(image/nuages2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 300px;
